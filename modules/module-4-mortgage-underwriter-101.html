@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 4 — Mortgage Underwriter 101 | Certified Master Loan Processor</title>
+<meta name="description" content="Mortgage Underwriter 101 — The Essentials. Terminology, LTV/CLTV/HCLTV, DTI, PITIA, loan programs, and cash to close.">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+    <span class="tag purple">Module 4</span>
+    <h1>Mortgage Underwriter 101 — The Essentials</h1>
+    <p class="subtitle">Terminology, ratios, loan programs, and the fundamentals of underwriting a mortgage file.</p>
+</section>
+
+<!-- ============ LAYOUT ============ -->
+<div class="app">
+
+    <!-- ============ SIDEBAR ============ -->
+    <nav class="sidebar">
+        <div class="module-block open">
+            <div class="module-header" onclick="toggleModule('s1')">
+                <span>Session 1 — Terminology &amp; Ratios</span>
+                <span class="chev">▾</span>
+            </div>
+            <div class="module-body" id="s1">
+                <a href="#s1-1">1.1 What Is a Mortgage?</a>
+                <a href="#s1-2">1.2 Loan Types &amp; Liens</a>
+                <a href="#s1-3">1.3 Sale of a Home &amp; Short Sale</a>
+                <a href="#s1-4">1.4 HELOCs</a>
+                <a href="#s1-5">1.5 Borrower, Co-Borrower, Buyer, Seller</a>
+                <a href="#s1-6">1.6 Credit Risk &amp; FICO</a>
+                <a href="#s1-7">1.7 Reading a Credit Report</a>
+                <a href="#s1-8">1.8 LTV, CLTV &amp; HCLTV</a>
+                <a href="#s1-9">1.9 PITIA &amp; Debt-to-Income</a>
+                <a href="#s1-10">1.10 Purchase &amp; Refinance Terms</a>
+                <a href="#s1-11">1.11 Cash to Close</a>
+                <a href="#s1-12">1.12 Loan Programs</a>
+                <a href="#s1-quiz">Session 1 Practice Quiz</a>
+            </div>
+        </div>
+
+        <div class="module-block">
+            <div class="module-header" onclick="toggleModule('s2')">
+                <span>Session 2 — Underwriting Role &amp; Tools</span>
+                <span class="chev">▸</span>
+            </div>
+            <div class="module-body" id="s2">
+                <span class="coming">Coming Soon</span>
+            </div>
+        </div>
+
+        <div class="module-block">
+            <div class="module-header" onclick="toggleModule('s3')">
+                <span>Session 3 — Income, Assets &amp; Appraisal</span>
+                <span class="chev">▸</span>
+            </div>
+            <div class="module-body" id="s3">
+                <span class="coming">Coming Soon</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============ MAIN ============ -->
+    <main class="main">
+
+        <!-- ===== 1.1 ===== -->
+        <section id="s1-1" class="card">
+            <h2>1.1 What Is a Mortgage? <span class="badge purple">Session 1</span></h2>
+            <p>A <strong>mortgage</strong> is a written contract between the <strong>mortgagor</strong> (the borrower) and the <strong>mortgagee</strong> (the lender) that requires the borrower to pledge their home as collateral for repayment of the loan.</p>
+            <div class="note">
+                <strong>Simple version:</strong> A mortgage is a legal IOU — the borrower receives a loan in exchange for a title lien and promises to pay it back on set terms (e.g., 30-year or 15-year at a fixed rate), with payments typically due on the 1st of each month.
+            </div>
+            <p>If the borrower fails to meet the payment terms, the ultimate consequence is <strong>foreclosure</strong> — the security property is taken and sold by the lender. That's why the home is considered <em>security</em> or <em>collateral</em>.</p>
+        </section>
+
+        <!-- ===== 1.2 ===== -->
+        <section id="s1-2" class="card">
+            <h2>1.2 Loan Types &amp; Liens <span class="badge purple">Session 1</span></h2>
+
+            <h3>First Mortgage</h3>
+            <p>The first lien to be paid off from the sale or foreclosure of the secured property. Simple and senior.</p>
+
+            <h3>Subordinate Liens</h3>
+            <p>When there is more than one lien against the property (most commonly multiple mortgages). Subordinate liens are paid <em>after</em> the first mortgage is satisfied. A subordinate mortgage can be a <strong>closed-end second</strong> or a <strong>HELOC</strong>.</p>
+            <ul>
+                <li><strong>Closed-End Second Mortgage</strong> — a subordinate lien with an initial balance paid over a loan term. Like a first mortgage, just with another loan ahead of it in line. Fixed or variable rate; set monthly due date.</li>
+            </ul>
+
+            <div class="note success">
+                <strong>The Burger Line Analogy:</strong> Two people order the same burger. The kitchen makes the first one and realizes there's no second. The first person (first mortgage) gets paid. The second person (second mortgage) placed the order, paid for it, and walks away with nothing — a loss to write off.
+            </div>
+        </section>
+
+        <!-- ===== 1.3 ===== -->
+        <section id="s1-3" class="card">
+            <h2>1.3 Sale of a Home &amp; Short Sale <span class="badge purple">Session 1</span></h2>
+            <p>Two common types of sales in today's market:</p>
+            <ul>
+                <li><strong>Traditional Sale</strong> — selling the home for at least what you owe (ideally more than what you paid).</li>
+                <li><strong>Short Sale</strong> — the house is worth <em>less</em> than what is owed. The seller asks the bank to accept less than the loan balance. Requires a written agreement from the bank to accept $X in repayment.</li>
+            </ul>
+
+            <div class="computation-box">
+                <div class="step"><strong>Scenario A — Shortfall</strong></div>
+                <div class="step">Sale price: $200,000</div>
+                <div class="step">1st mortgage owed: $185,000</div>
+                <div class="step">2nd mortgage owed: $50,000</div>
+                <div class="step">$200,000 − $185,000 = $15,000 remaining</div>
+                <span class="result">2nd lender receives $15,000 → loss of $35,000</span>
+            </div>
+
+            <div class="computation-box">
+                <div class="step"><strong>Scenario B — Both Paid in Full</strong></div>
+                <div class="step">Sale price: $200,000</div>
+                <div class="step">1st mortgage owed: $150,000</div>
+                <div class="step">2nd mortgage owed: $20,000</div>
+                <div class="step">Both liens paid in full; $30,000 remains to seller</div>
+                <span class="result">Seller profit = $30,000</span>
+            </div>
+
+            <div class="note warning">
+                On a mortgage note, if a foreclosure sale doesn't produce enough to cover the second mortgage, the second-mortgage lender is stuck with whatever they are given.
+            </div>
+        </section>
+
+        <!-- ===== 1.4 ===== -->
+        <section id="s1-4" class="card">
+            <h2>1.4 HELOCs <span class="badge purple">Session 1</span></h2>
+            <p><strong>Home Equity Line of Credit (HELOC)</strong> — a revolving line of credit secured by the home. Works like a credit card:</p>
+            <ul>
+                <li>Borrower gets a set maximum limit.</li>
+                <li>Borrower draws only what they need.</li>
+                <li>Repayments are made only on the amount drawn — not on the full available line.</li>
+            </ul>
+            <div class="note">
+                <strong>Example:</strong> $100,000 HELOC limit, borrower draws $10,000 → payments are on the $10,000, not the $100,000.
+            </div>
+        </section>
+
+        <!-- ===== 1.5 ===== -->
+        <section id="s1-5" class="card">
+            <h2>1.5 Borrower, Co-Borrower, Buyer, Seller <span class="badge purple">Session 1</span></h2>
+
+            <h3>Borrower &amp; Co-Borrower</h3>
+            <p>Applies to both purchases and refinances. These are the individuals who become obligated on the mortgage note once the closing documents are executed.</p>
+            <ul>
+                <li>Each borrower completes their <strong>own</strong> 1003 / URLA.</li>
+                <li>Married couples mark <em>joint credit</em> on both applications.</li>
+                <li>Two friends, parent/child, or any other relationship → each on their own 1003, each considered a borrower.</li>
+                <li>If a married couple + a single friend are on the loan → the couple marks joint credit; the single person marks individual credit.</li>
+            </ul>
+            <div class="note">
+                The borrower who earns the most is often (but not always) the primary borrower. Always look at the full picture.
+            </div>
+
+            <h3>Buyer &amp; Seller</h3>
+            <ul>
+                <li><strong>Buyer</strong> — the party purchasing the property per the sales contract.</li>
+                <li><strong>Seller</strong> — selling the property to the borrower; must be the <strong>vested owner(s)</strong> on title.</li>
+            </ul>
+            <div class="note warning">
+                <strong>Vested owner</strong> means they legally own the property. If someone else tries to sell on the owner's behalf and their name is on the contract instead of the actual title holder, the contract is invalid.
+            </div>
+        </section>
+
+        <!-- ===== 1.6 ===== -->
+        <section id="s1-6" class="card">
+            <h2>1.6 Credit Risk &amp; FICO <span class="badge purple">Session 1</span></h2>
+            <p><strong>Credit risk</strong> is the inherent risk to the lender based on the borrower's previous credit performance, DTI, LTV, marketability of collateral, and other factors.</p>
+
+            <h3>FICO Scores</h3>
+            <ul>
+                <li>A score verified via a <strong>tri-merge credit report</strong> (Experian, Equifax, TransUnion).</li>
+                <li>Range: <strong>300–850</strong>. Higher is better.</li>
+                <li>Factors: payment timeliness, balances vs. limits, DTI when applying for credit.</li>
+            </ul>
+
+            <div class="formula-box">
+                <span class="label">Mid-FICO Rule</span>
+                <span class="formula">3 scores → take the MIDDLE one</span>
+            </div>
+            <div class="formula-box">
+                <span class="label">Two-Borrower Rule</span>
+                <span class="formula">Use the LOWER of the two mid-FICO scores</span>
+            </div>
+
+            <div class="computation-box">
+                <div class="step">Borrower A scores: 750 / 780 / 600 → mid = 600</div>
+                <div class="step">Co-Borrower B scores: 720 / 700 / 690 → mid = 700</div>
+                <div class="step">Lower of (600, 700) = 600</div>
+                <span class="result">Qualifying FICO = 600</span>
+            </div>
+        </section>
+
+        <!-- ===== 1.7 ===== -->
+        <section id="s1-7" class="card">
+            <h2>1.7 Reading a Credit Report <span class="badge purple">Session 1</span></h2>
+            <p>Our jobs are <strong>due diligence</strong>. Verify everything — the credit report is where most human errors hide (typos on SSN, misspelled last names).</p>
+
+            <div class="note danger">
+                <strong>Real example:</strong> A co-worker's file went all the way to closing before someone caught a wrong SSN on the credit report. The report ran under the wrong person, and the resulting FICO (though still qualifying) delayed the closing.
+            </div>
+
+            <h3>Key Sections to Review</h3>
+            <ul>
+                <li><strong>Header / Scores</strong> — FICO, factors ("credit key factors"), reasons for low scores.</li>
+                <li><strong>Mortgage History</strong> — 1st and 2nd mortgages, HELOCs. Look for any 30/60/90-day lates.</li>
+                <li><strong>Auto Loans vs. Leases</strong> — an auto loan with <strong>10 payments or less</strong> may be excluded from DTI. A <strong>lease cannot</strong> be excluded.</li>
+                <li><strong>Derogatory Section</strong> — all lates, how many days, when, and what type of loan. Check against program guidelines.</li>
+                <li><strong>Public Records</strong> — bankruptcies, judgments (note: since 2017 most judgments and tax liens are no longer reported — require extra scrutiny elsewhere).</li>
+                <li><strong>Inquiries</strong> — too many recent inquiries can indicate financial distress.</li>
+            </ul>
+        </section>
+
+        <!-- ===== 1.8 ===== -->
+        <section id="s1-8" class="card">
+            <h2>1.8 LTV, CLTV &amp; HCLTV <span class="badge purple">Session 1</span></h2>
+
+            <div class="note">
+                <strong>Refinance:</strong> always use current appraised value (check guidelines if purchased in last 12 months).<br>
+                <strong>Purchase:</strong> always use the <em>lower</em> of purchase price or final appraised value.
+            </div>
+
+            <div class="formula-box">
+                <span class="label">Loan-to-Value (LTV)</span>
+                <span class="formula">1st Mortgage Loan Amount ÷ Lower(Appraised Value, Purchase Price)</span>
+            </div>
+            <div class="formula-box">
+                <span class="label">Combined LTV (CLTV)</span>
+                <span class="formula">(1st Loan + Subordinate Balance) ÷ Lower(Appraised Value, Purchase Price)</span>
+            </div>
+            <div class="formula-box">
+                <span class="label">High Combined LTV (HCLTV)</span>
+                <span class="formula">(1st Loan + Subordinate MAX LIMIT) ÷ Lower(Appraised Value, Purchase Price)</span>
+            </div>
+
+            <div class="computation-box">
+                <div class="step"><strong>Example 1</strong></div>
+                <div class="step">Appraised value: $250,000 | Purchase price: $300,000</div>
+                <div class="step">Use $250,000 (lower)</div>
+                <div class="step">1st loan: $150,000 → LTV = 150,000 ÷ 250,000 = <strong>60%</strong></div>
+                <div class="step">HELOC balance: $50,000 (limit $60,000)</div>
+                <div class="step">CLTV = (150,000 + 50,000) ÷ 250,000 = <strong>80%</strong></div>
+                <div class="step">HCLTV = (150,000 + 60,000) ÷ 250,000 = <strong>84%</strong></div>
+            </div>
+
+            <div class="computation-box">
+                <div class="step"><strong>Example 2</strong></div>
+                <div class="step">Purchase price: $250,000 | Appraised value: $275,000</div>
+                <div class="step">1st loan: $175,000 | HELOC balance: $50,000 | HELOC limit: $80,000</div>
+                <div class="step">LTV = 175,000 ÷ 250,000 = <strong>70%</strong></div>
+                <div class="step">CLTV = (175,000 + 50,000) ÷ 250,000 = <strong>90%</strong></div>
+                <div class="step">HCLTV = (175,000 + 80,000) ÷ 250,000 = <strong>102%</strong></div>
+            </div>
+
+            <div class="note warning">
+                A 102% HCLTV is a red flag — most guidelines don't allow it. It indicates outstanding liens exceed the home's worth.
+            </div>
+        </section>
+
+        <!-- ===== 1.9 ===== -->
+        <section id="s1-9" class="card">
+            <h2>1.9 PITIA &amp; Debt-to-Income <span class="badge purple">Session 1</span></h2>
+
+            <h3>PITIA = the monthly housing payment</h3>
+            <ul>
+                <li><strong>P</strong> — Principal</li>
+                <li><strong>I</strong> — Interest</li>
+                <li><strong>T</strong> — Taxes (property)</li>
+                <li><strong>I</strong> — Insurance (homeowners, flood if required, mortgage insurance if required)</li>
+                <li><strong>A</strong> — Association dues (HOA — common on condos, co-ops, PUDs)</li>
+            </ul>
+
+            <div class="formula-box">
+                <span class="label">Housing Ratio (Front-End DTI)</span>
+                <span class="formula">PITIA ÷ Total Monthly Qualifying Income</span>
+            </div>
+            <div class="formula-box">
+                <span class="label">Total DTI (Back-End)</span>
+                <span class="formula">(PITIA + All Other Debts) ÷ Total Monthly Qualifying Income</span>
+            </div>
+
+            <div class="computation-box">
+                <div class="step">PITIA components: $650 + $250 + $300 + $75 + $67.50</div>
+                <div class="step">Total PITIA = <strong>$1,342.50</strong></div>
+                <div class="step">Other debts: $300 (child support) + $50 (revolving) + $400 (auto) + $150 (student) = <strong>$900</strong></div>
+                <div class="step">Total debt = $1,342.50 + $900 = <strong>$2,242.50</strong></div>
+                <div class="step">Qualifying income = $4,500</div>
+                <div class="step">Housing ratio = 1,342.50 ÷ 4,500 = <strong>29.83%</strong></div>
+                <div class="step">Total DTI = 2,242.50 ÷ 4,500 = <strong>49.83%</strong></div>
+            </div>
+
+            <div class="note success">
+                The <strong>total DTI (back-end ratio)</strong> is the most important ratio used for guideline qualification.
+            </div>
+        </section>
+
+        <!-- ===== 1.10 ===== -->
+        <section id="s1-10" class="card">
+            <h2>1.10 Purchase &amp; Refinance Terms <span class="badge purple">Session 1</span></h2>
+
+            <h3>Purchase Agreement</h3>
+            <p>Written contract between seller and buyer outlining the terms. Contains:</p>
+            <ul>
+                <li>Property address + all party names (buyer, seller, agents, attorneys)</li>
+                <li>Sales price + earnest money deposit (check, money order, or wire)</li>
+                <li>Seller contributions toward buyer's closing costs</li>
+                <li>Three key dates: contract execution, mortgage commitment due date, expected closing date</li>
+                <li>Any repairs required before closing (health/safety repairs need proof before final approval)</li>
+            </ul>
+
+            <h3>Down Payment &amp; Closing Costs</h3>
+            <ul>
+                <li><strong>Down Payment</strong> = Purchase Price − Loan Amount</li>
+                <li><strong>Closing Costs</strong> — credit report, appraisal, title, origination fees</li>
+                <li><strong>Prepaids</strong> — initial escrow deposits, current taxes/insurance due</li>
+                <li><strong>Escrow Account</strong> — lender-maintained, borrower-funded; think of it as a savings account under the borrower's name used to pay taxes and insurance.</li>
+            </ul>
+
+            <h3>Refinance Types</h3>
+            <ul>
+                <li><strong>Rate &amp; Term (Limited Cash-Out / LCO)</strong> — pays off existing mortgage(s); purchase-money subordinate liens may also be paid off.</li>
+                <li><strong>Cash-Out Refinance</strong> — takes equity out of the home; pays off 1st mortgage, can pay off non-purchase-money subordinate liens, consumer debts, or give cash in hand. Can even be done on a free-and-clear home.</li>
+            </ul>
+            <div class="note">
+                When refinancing, order a <strong>payoff statement</strong> — tells you exactly what's owed and the "good through" date after which the payoff changes.
+            </div>
+        </section>
+
+        <!-- ===== 1.11 ===== -->
+        <section id="s1-11" class="card">
+            <h2>1.11 Cash to Close <span class="badge purple">Session 1</span></h2>
+
+            <div class="formula-box">
+                <span class="label">Cash to Close</span>
+                <span class="formula">(Down Payment + Closing Costs + Prepaids) − Credits</span>
+            </div>
+
+            <p><strong>Credits</strong> include:</p>
+            <ul>
+                <li><strong>Earnest Money Deposit (EMD)</strong> — buyer funds given at contract acceptance; must be sourced from borrower's own accounts. Cash is not acceptable.</li>
+                <li><strong>Lender Credit</strong> — a paper-trail credit on the closing disclosure; reduces cash needed.</li>
+                <li><strong>Interested Party Contribution (IPC)</strong> — contribution from seller, agent, or attorney.</li>
+                <li><strong>Seller Concessions</strong> — excessive IPCs or non-realty contributions (furniture, moving costs, decor allowances).</li>
+            </ul>
+
+            <div class="note warning">
+                Each agency (Fannie, Freddie, FHA, VA, USDA) sets specific dollar or percentage limits on IPCs and concessions. Always verify against the program.
+            </div>
+
+            <div class="computation-box">
+                <div class="step"><strong>Purchase Example</strong></div>
+                <div class="step">Purchase price: $250,000 | Loan: $200,000</div>
+                <div class="step">Down payment = 250,000 − 200,000 = <strong>$50,000</strong></div>
+                <div class="step">Closing costs + prepaids = $7,500</div>
+                <div class="step">Cash to close before credits = 50,000 + 7,500 = <strong>$57,500</strong></div>
+                <div class="step">Credits: EMD $1,000 + IPC $3,000 = <strong>$4,000</strong></div>
+                <div class="step">Cash to close after credits = 57,500 − 4,000 = <strong>$53,500</strong></div>
+            </div>
+
+            <div class="computation-box">
+                <div class="step"><strong>Refinance Example</strong></div>
+                <div class="step">New loan: $300,000 | 1st payoff: $250,000 | 2nd payoff (non-purchase-money): $45,000 | Costs: $6,000</div>
+                <div class="step">Total payoffs + costs = 250,000 + 45,000 + 6,000 = $301,000</div>
+                <div class="step">$301,000 &gt; $300,000 → no cash back</div>
+                <span class="result">Cash to close = $1,000 (from verified borrower funds)</span>
+            </div>
+
+            <div class="note">
+                Because the 2nd mortgage was <em>not</em> purchase money, this scenario is a <strong>cash-out refinance</strong>, not rate-and-term.
+            </div>
+        </section>
+
+        <!-- ===== 1.12 ===== -->
+        <section id="s1-12" class="card">
+            <h2>1.12 Loan Programs <span class="badge purple">Session 1</span></h2>
+
+            <h3>Conventional</h3>
+            <ul>
+                <li>Underwritten to Fannie Mae or Freddie Mac guidelines.</li>
+                <li><strong>Conforming</strong> = loan amount meets Fannie/Freddie county limits.</li>
+                <li><strong>PMI (Private Mortgage Insurance)</strong> required when LTV &gt; 80%. Protects the <em>lender</em> if the borrower defaults — not the borrower.</li>
+            </ul>
+
+            <h3>USDA (Rural Housing Development)</h3>
+            <ul>
+                <li>Government mortgage insurance program for lower-income borrowers.</li>
+                <li>Property must be in a designated rural area.</li>
+                <li>Borrowers must meet maximum household income limits.</li>
+            </ul>
+
+            <h3>FHA (Federal Housing Administration)</h3>
+            <ul>
+                <li>Government mortgage insurance program.</li>
+                <li>Lower down payments than most conventional.</li>
+                <li>Less stringent on credit guidelines.</li>
+                <li><strong>Always has monthly mortgage insurance.</strong></li>
+            </ul>
+
+            <h3>VA (Veterans Administration)</h3>
+            <ul>
+                <li>Government mortgage guarantee program for veterans of the U.S. Armed Forces.</li>
+                <li>Allows purchase with no down payment.</li>
+            </ul>
+
+            <div class="note">
+                All government-backed programs allow little-to-no down payment in exchange for giving lenders a higher insurance guarantee on riskier loans.
+            </div>
+        </section>
+
+        <!-- ===== QUIZ ===== -->
+        <section id="s1-quiz" class="card">
+            <h2>Session 1 Practice Quiz <span class="badge">10 Questions</span></h2>
+
+            <div class="quiz-q">
+                <p><strong>1.</strong> What does PITIA stand for?</p>
+                <div class="quiz-answer"><strong>Principal, Interest, Taxes, Homeowners Insurance, Mortgage Insurance (if required), and Homeowners Association Dues (if required).</strong></div>
+            </div>
+
+            <div class="quiz-q">
+                <p><strong>2.</strong> What are the three credit bureaus that make up a tri-merge credit report?</p>
+                <div class="quiz-answer"><strong>Experian, Equifax, and TransUnion.</strong></div>
+            </div>
+
+            <div class="quiz-q">
+                <p><strong>3.</strong> True or false — a seller concession can be any dollar amount.</p>
+                <div class="quiz-answer"><strong>False.</strong> FHA, Conventional, VA, and USDA all have specific limits (often percentage-based on loan amount and property type).</div>
+            </div>
+
+            <div class="quiz-q">
+                <p><strong>4.</strong> What are the funds called that are given to the seller's realtor or attorney at the time the sales contract is signed?</p>
+                <div class="quiz-answer"><strong>Earnest Money Deposit (EMD).</strong> Must be sourced from an acceptable source (personal/cashier's check or wire — <em>never</em> cash).</div>
+            </div>
+
+            <div class="quiz-q">
+                <p><strong>5.</strong> What type of refinance is it when the borrower only pays off the current mortgage?</p>
+                <div class="quiz-answer"><strong>Rate and Term refinance.</strong></div>
+            </div>
+
+            <div class="quiz-q">
+                <p><strong>6.</strong> What loan program is geared towards veterans of the United States?</p>
+                <div class="quiz-answer"><strong>VA (Veterans Administration).</strong></div>
+            </div>
+
+            <div class="quiz-q">
+                <p><strong>7.</strong> True or false — the loan closer issues the clear to close and then drafts the closing disclosures for the borrower to sign at closing.</p>
+                <div class="quiz-answer"><strong>False (trick question).</strong> Only the <em>underwriter</em> has authority to issue clear-to-close. The loan closer drafts the disclosures.</div>
+            </div>
+
+            <div class="quiz-q">
+                <p><strong>8.</strong> A ______ originates a loan, pledges the loan to a lender, and closes it in the lender's name.</p>
+                <div class="quiz-answer"><strong>Broker.</strong></div>
+            </div>
+
+            <div class="quiz-q">
+                <p><strong>9.</strong> What is the PITIA amount from the chart in this session?</p>
+                <div class="quiz-answer"><strong>$1,342.50</strong> = $650 + $250 + $300 + $75 + $67.50.</div>
+            </div>
+
+            <div class="quiz-q">
+                <p><strong>10.</strong> If the borrower is buying a home at a purchase price of $400,000 and putting down 20%, how much is the down payment in dollars?</p>
+                <div class="quiz-answer"><strong>$80,000</strong> ($400,000 × 20%).</div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<!-- ============ MODULE NAV ============ -->
+<div class="module-nav">
+    <a href="module-3-fha-va-processing.html">← Module 3: FHA/VA Processing</a>
+    <a href="index.html">All Modules</a>
+    <a href="module-5-income-ltv-dti.html">Module 5: Income, LTV &amp; DTI →</a>
+</div>
+
+<p class="version-info">Module 4 · Version 1.0 · Session 1 of 3 (Complete build coming in Batches B &amp; C)</p>
+
+<footer class="site-footer">
+    <p>Certified Master Loan Processor Bootcamp · Educational use only · Not legal advice</p>
+</footer>
+
+<script src="../js/script.js"></script>
+<script src="../js/nav.js"></script>
+</body>
+</html>
